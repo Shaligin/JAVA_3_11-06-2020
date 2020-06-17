@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         int []abc = new int[4];
-        changeArr(); // не пойму как в метод передать массив???
+        changeArr(abc); // не пойму как в метод передать массив???
     }
 
     public static <N> ArrayList<N> changeArr(N[] arr){
@@ -21,5 +21,6 @@ public class Main {
             arr[a] = arr[b];
             arr[b] =  arr[a];
         }
+
 
 }
