@@ -6,7 +6,7 @@ import java.util.concurrent.Semaphore;
 
 public class MainClass {
 
-    private static final int CARS_COUNT = 4;
+    public static final int CARS_COUNT = 4;
     static CountDownLatch startLine = new CountDownLatch(CARS_COUNT);
     static CyclicBarrier roadStage = new CyclicBarrier(CARS_COUNT);
     static Semaphore tunnel = new Semaphore(CARS_COUNT/2,true);
