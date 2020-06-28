@@ -1,4 +1,4 @@
-package geekbrains.java;
+package geekbrains.java.HM_1;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -8,8 +8,8 @@ public class Main {
     private static Object String;
 
     public static void main(String[] args) {
-        int []abc = new int[4];
-        changeArr(abc); // не пойму как в метод передать массив???
+        //int []abc = new int {2, 4, 5, 3}
+        //changeArr(abc); // не пойму как в метод передать массив???
     }
 
     public static <N> ArrayList<N> changeArr(N[] arr){

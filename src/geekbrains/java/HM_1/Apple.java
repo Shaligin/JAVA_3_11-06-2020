@@ -1,4 +1,4 @@
-package geekbrains.java;
+package geekbrains.java.HM_1;
 
 public class Apple extends Fruit {
     public Apple()  {
